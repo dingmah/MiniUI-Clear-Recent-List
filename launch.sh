@@ -12,12 +12,12 @@ if confirm; then
 	rm "${RECENTS}"
 	touch "${RECENTS}"
 	show okay.png
-	say "Recently Played list has been cleared"
+	say "Recently Played list cleared"
 	sleep 0.1
 	confirm any
 else
 	show okay.png
-	say "Recently Played list has NOT been cleared"
+	say "Recently Played list NOT cleared"
 	sleep 0.1
 	confirm only
 fi
