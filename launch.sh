@@ -1,14 +1,23 @@
 #!/bin/sh 
-  
- show confirm.png && say "
-By confirming, your Recently Played will be cleared."$'\n\n'"
-Are you sure you would like to do this?"$'\n\n' 
-  
+
+DIR=$(dirname "$0")
+cd "$DIR"
+
 RECENTS="/mnt/SDCARD/.userdata/.miniui/recent.txt"
 
- if confirm; then
-    if [[ -f "$RECENTS" ]]; then 
-         rm "${RECENTS}"
-         touch "${RECENTS}"
-    fi
- fi
+show confirm.png
+say "This will clear the Recently Played list"
+
+if confirm; then
+	rm "${RECENTS}"
+	touch "${RECENTS}"
+	show okay.png
+	say "Recently Played list has been cleared"
+	sleep 0.1
+	confirm any
+else
+	show okay.png
+	say "Recently Played list has not been cleared"
+	sleep 0.1
+	confirm only
+fi
