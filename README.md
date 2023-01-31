@@ -1,7 +1,7 @@
 # MiniUI Tool Pak to Clear Recently Played List
 
 ## Background
-* This is a tool pak created for the Miyoo Mini custom OS [MiniUI created by Shaun Inman](https://github.com/shauninman/MiniUI)
+* This tool pak is created for the Miyoo Mini custom OS [MiniUI created by Shaun Inman](https://github.com/shauninman/MiniUI)
 * Its purpose is to clear the MiniUI **Recently Played** list directly on the Miyoo Mini.
 * Without this tool pak, the **Recently Played** list continuously grows everytime a user opens a new game as shown below.  
   ![MiniUI_Recent_List](https://user-images.githubusercontent.com/124028871/215833683-17d9c715-d7f7-4d0c-8f6b-88754b8854be.png)
@@ -19,8 +19,10 @@
   
 ## How to install
 * Copy the **LAUNCH.sh** file to the SD card within a folder named ***"Clear Recently Played List.pak"*** located in *"root\Tools\"*
-* IE: the **LAUNCH.sh** file will be located in the folder *"root\Tools\Clear Recently Played List.pak"*  
-* You can change the name of the folder to whatever you would like, as long as the folder name contains the .pak extenion. Whatever you change the name to, that will also become the name in the Tools menu.  
+	* IE: the **LAUNCH.sh** file needs to be placed in the folder *"root\Tools\Clear Recently Played List.pak"*  
+	   
+* You can change the name of the folder ***(Clear Recently Played List.pak)*** to whatever you would like, as long as the folder name contains the .pak extension.
+	* Whatever you change the name to, that will also become the name in the Tools menu.  	
 
 ## Thanks
 * [EvanClements](https://github.com/EvanClements/MiniUI-Clear-Recent) for writing the original script that I created this fork from.
