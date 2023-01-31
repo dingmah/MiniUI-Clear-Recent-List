@@ -17,7 +17,7 @@ if confirm; then
 	confirm any
 else
 	show okay.png
-	say "Recently Played list has not been cleared"
+	say "Recently Played list has NOT been cleared"
 	sleep 0.1
 	confirm only
 fi
