@@ -14,7 +14,7 @@ if confirm; then
 	show okay.png
 	say "Recently Played list has been cleared"
 	sleep 0.1
-	confirm any
+	confirm only
 else
 	show okay.png
 	say "Recently Played list has not been cleared"
