@@ -1,4 +1,4 @@
-# MiniUI Tool Pak to Clear Recently Played List on Miyoo Mini Hand Held
+# MiniUI Tool Pak to Clear Recently Played List
 
 ## Background
 * This is a tool pak created for the Miyoo Mini custom OS [MiniUI created by Shaun Inman](https://github.com/shauninman/MiniUI)
